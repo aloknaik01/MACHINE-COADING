@@ -1,5 +1,8 @@
 import React from "react";
+import ThemeToggle from "./components/ThemeToggle";
 
-export const App = () => {
-  return <div>App</div>;
-};
+function App() {
+  return <ThemeToggle />;
+}
+
+export default App;
