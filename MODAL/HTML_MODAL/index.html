@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Custom Modal</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <button id="openModal" class="open-btn">Open Modal</button>
+    </div>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span id="closeModal" class="close-btn">&times;</span>
+        <h2 class="modal-title">Modern Custom Modal</h2>
+        <p class="modal-text">
+          This is a modal built with pure HTML, CSS, and JS
+        </p>
+        <div class="modal-actions">
+          <button class="btn cancel-btn" id="cancelBtn">Cancel</button>
+          <button class="btn confirm-btn">Confirm</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
